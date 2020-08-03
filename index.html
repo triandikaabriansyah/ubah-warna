@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bermain Dengan Warna</title>
+	<style>
+		html,  body{
+			height: 100%;
+		}
+		body{
+			text-align: center;
+		}
+		.kotak{
+			width: 25px;
+			height: 25px;
+			margin: 10px auto;
+		}
+		.merah{
+			background-color: red;
+		}
+		.kotak{
+			width: 25px;
+			height: 25px;
+			margin: 10px auto;
+		}
+		.hijau{
+			background-color: green;
+		}
+		.kotak{
+			width: 25px;
+			height: 25px;
+			margin: 10px auto;
+		}
+		.biru{
+			background-color: blue;
+		}
+		.biruMuda{
+			background-color: lightblue;
+		}
+	</style>
+
+</head>
+<body>
+	<h1>Bermain Dengan Warna</h1>
+	<button type="button" id="tombolUbahWarna">Ubah Warna</button>
+
+	<br><br>
+
+	<div class="kotak merah"></div>
+	<input type="range" name="sliderMerah" min="0" max="255">
+
+	<div class="kotak hijau"></div>
+	<input type="range" name="sliderHijau" min="0" max="255">
+
+	<div class="kotak biru"></div>
+	<input type="range" name="sliderBiru" min="0" max="255">
+
+
+	<script src="script.js"></script>
+</body>
+</html>
